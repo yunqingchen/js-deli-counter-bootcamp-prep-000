@@ -21,5 +21,5 @@ function currentLine(line){
       outputString += `${i+1}. ${line[i]}, `
 }
 }
-return outputString.substring(0, outputString.length -1);
+return outputString.substring(0, outputString.length -2);
 }
